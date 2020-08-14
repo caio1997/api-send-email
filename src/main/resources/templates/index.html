@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8">
+    <title>Envio de email</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<body>
+    <form class="form-horizontal" method="post", action="email">
+        <h1 class="titulo">Envio de Email</h1>
+        <div class="panel panel-default">
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-1 col-form-label">Email:</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email"/>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputTitle" class="col-sm-1 col-form-label">Title:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputTitle" name="title" placeholder="Title"/>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputText" class="col-sm-1 col-form-label">Text:</label>
+                <div class="col-sm-6">
+                    <textarea class="form-control" id="inputText" rows="10" name="text" placeholder="Text"></textarea>
+                </div>
+            </div>
+
+        <p class="submit">
+            <button type="button" class="btn btn-primary", th:type="submit">Enviar</button>
+        </p>
+        </div>
+    </form>
+    <script src="../js/jquery-3.5.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

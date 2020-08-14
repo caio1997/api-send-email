@@ -1,0 +1,28 @@
+.panel-default{
+	padding-top: 120px;
+	padding-left: 580px;
+}
+
+.submit{
+	padding-top: 30px;
+	padding-left: 330px;
+}
+
+.titulo{
+	padding-top: 130px;
+	padding-left: 760px;
+	font-size: 70px;
+}
+
+.col-form-label{
+	font-size: 25px;
+}
+
+.btn-primary{
+	width: 230px;
+	height: 70px;
+	font-size: 30px;
+}
+.col-sm-5{
+	padding-top: 5px;
+}
